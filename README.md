@@ -1,2 +1,7 @@
 # webware_final
-Webware final project
+Our final project for CS4241 B16
+
+Contributors:
+Mike LoTurco
+Kenedi Heather
+Dan Seaman
