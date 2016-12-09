@@ -1,0 +1,12 @@
+{
+  "name": "cs4241-final-project",
+  "version": "0.1.0",
+  "description": "WPI CS 4241 Final Project",
+  "author": "Dan Seaman, Mike LoTurco, Kenedi Heather",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+  }
+}
