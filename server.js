@@ -8,19 +8,22 @@ var server = http.createServer (function (req, res) {
 
  switch( uri.pathname ) {
     case '/':
-      sendFile(res, 'public/index.html', 'text/html', 200)
+      sendFile(res, 'home.html', 'text/html', 200)
       break
-    case '/index.html':
-      sendFile(res, 'public/index.html', 'text/html', 200)
+    case '/home.html':
+      sendFile(res, 'home.html', 'text/html', 200)
       break
-    case '/css/style.css':
-      sendFile(res, 'public/style.css', 'text/css', 200)
+    case '/about.html':
+      sendFile(res, 'about.html', 'text/html', 200)
+      break
+    case '/css/bootstrap.css':
+      sendFile(res, '/css/bootstrap.css', 'text/css', 200)
       break
     case '/README.md':
       sendFile(res, 'README.md', 'text/markdown', 200)
       break
-    case '/js/scripts.js':
-      sendFile(res, 'public/scripts.js', 'text/javascript', 200)
+    case '/js/bootstrap.min.js':
+      sendFile(res, 'public/bootstrap.min.js', 'text/javascript', 200)
       break
     default:
       res.end("404 not found")
