@@ -16,13 +16,13 @@ var server = http.createServer (function (req, res) {
     case '/about.html':
       sendFile(res, 'about.html', 'text/html', 200)
       break
-    case '/bootstrap.css':
+    case 'css/bootstrap.css':
       sendFile(res, '/css/bootstrap.css', 'text/css', 200)
       break
     case '/README.md':
       sendFile(res, 'README.md', 'text/markdown', 200)
       break
-    case 'bootstrap.min.js':
+    case 'js/bootstrap.min.js':
       sendFile(res, 'js/bootstrap.min.js', 'text/javascript', 200)
       break
     default:
