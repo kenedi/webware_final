@@ -2,6 +2,6 @@
 Our final project for CS4241 B16
 
 Contributors:
-Mike LoTurco
-Kenedi Heather
+Mike LoTurco,
+Kenedi Heather,
 Dan Seaman
